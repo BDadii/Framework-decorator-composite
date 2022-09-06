@@ -15,4 +15,4 @@ $wrapper->add(new Input('image', "Image", 'file'));
 
 $form->add($wrapper);
 
-echo $form . "\n";
+echo $form->render() . "\n";

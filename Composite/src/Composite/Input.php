@@ -14,7 +14,7 @@ class Input extends AbstractComposite
     public function add(AbstractComposite $c): void {}
 
     public function render(): string{
-        return '<input' 
+        return '<input ' 
         . 'type ="' . $this->type 
         . '" name ="' . $this->name 
         . '" label = "' . $this->label 
